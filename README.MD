@@ -8,7 +8,7 @@ apt install build-essential git curl gcc make jq -y
 ```
 ```
 cd $HOME
-ver="1.20"
+ver="1.20.2"
 wget "https://golang.org/dl/go$ver.linux-amd64.tar.gz"
 sudo rm -rf /usr/local/go
 sudo tar -C /usr/local -xzf "go$ver.linux-amd64.tar.gz"
